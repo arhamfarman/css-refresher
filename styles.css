@@ -1,0 +1,23 @@
+.first-div {
+    background-color:aquamarine ;
+    color: blueviolet;
+    text-align: center;
+}
+
+.first-div h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: brown;
+}
+
+.img-div {
+    background-color: burlywood;
+}
+
+.img-div img{
+    height: auto;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
