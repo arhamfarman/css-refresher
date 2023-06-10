@@ -16,3 +16,87 @@
     background-color: rgb(107, 223, 107);
     font-weight: bold;
 }
+
+
+.first-button{
+    background-color: black;
+    color: white;
+}
+
+.second-button{
+    background-color: yellow;
+}
+
+.first-button,
+.second-button{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.avatar.propotioned {
+    width: 300px;
+    height: auto;
+}
+
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+
+/* descendant combinators below*/
+ .container .text {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+ }
+
+
+ /* cascade exercise */
+ 
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+   
+  .para {
+    font-size: 22px;
+  }
+  
+   
+  .small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  #confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+  
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+    
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
+
+
+  div .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
